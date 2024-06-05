@@ -19,7 +19,7 @@ package com.giaolang.mathutil.core;
     // 0! = 1;
 public class MathUtility {
     public static long getFactorial (int n){
-      long product = 1; 
+      long product = 10; 
         if(n < 0 || n > 20){
             throw new IllegalArgumentException("Invalid n. n must be between 0..20");
         }
