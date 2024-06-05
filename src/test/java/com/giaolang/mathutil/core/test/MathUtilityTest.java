@@ -88,7 +88,6 @@ public class MathUtilityTest {
         assertThrows(IllegalArgumentException.class,
                 () -> {MathUtility.getFactorial(-1);});
     }
-
 }
 
 
