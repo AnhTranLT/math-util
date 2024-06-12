@@ -27,7 +27,7 @@ public class MathUtility {
         if(n == 0 || n ==1)
             return 1; // diem dung cua de quy
         
-        return n * getFactorial( -1);
+        return n * getFactorial(n -1);
         // n! = n* (n-1)! // stack LFO - last in first out
         // USING RECUTION TO DEMONSTRATE REGRESSION TESTs
            
