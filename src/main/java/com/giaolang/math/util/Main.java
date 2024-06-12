@@ -8,7 +8,7 @@ package com.giaolang.math.util;
  *
  * @author ADMIN
  */
-public class MathUtil {
+public class Main {
 
     public static void SayHiFromServer(){
     System.out.println("Hello World!");
@@ -19,6 +19,7 @@ public static void SayHiFromLocal(){
 }
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int n = 0;
+        long expecredResult = 1;
     }
 }
